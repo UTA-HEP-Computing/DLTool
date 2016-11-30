@@ -145,7 +145,7 @@ if len(sys.argv)>4:
 print "NEvents per file: ",NEvents
 print "Offset: ",Offset
 
-files = glob.glob(InputDir + '/*/*/wire_dump*.root')
+files = glob.glob(InputDir + '/*/*/WireDump_*.root')
 print 'Found %d files.' % len(files)
 
 
